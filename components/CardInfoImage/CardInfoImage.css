@@ -1,0 +1,36 @@
+.cardInfoImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.cardInfoImage__card {
+    max-width: 278px;
+    height: 345px;
+    width: 100%;
+    padding: 48px;
+    border: 1px solid #cccccc20;
+    border-radius: 2rem;
+    width: max-content;
+}
+
+.cardInfoImage__image {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 1.5rem;
+}
+
+.cardInfoImage__title {
+    margin: 20px 0;
+    line-height: 2.25rem;
+    font-size: 30px;
+    color: var(--title);
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+}
+
+.cardInfoImage__description {
+    font-size: 18px;
+    color: var(--subtitle);
+}

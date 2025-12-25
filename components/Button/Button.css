@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border-radius: 5rem;
+    padding: 1rem 2.25rem;
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+    background: var(--darkPurpleMain);
+    color: var(--title);
+    transition: var(--transition);
+    width: max-content;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.button__icon {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1175px) {
+    .button {
+        font-size: 12px;
+    }
+}

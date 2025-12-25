@@ -1,0 +1,105 @@
+.bannerSectionFull {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 22.5px;
+    aspect-ratio: 16/7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+
+.bannerSectionFull__alertText {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+    gap: 4px;
+    padding: 0.35rem 0.75rem;
+    background: #4b07873d;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    color: #6b18b4;
+    border: 1px solid #6b18b445;
+}
+
+.bannerSectionFull__title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--title);
+    font-family: "Syne", sans-serif;
+}
+
+.bannerSectionFull__title--main {
+    margin: 0 auto;
+    max-width: 40rem;
+    line-height: 5.25rem;
+}
+
+.bannerSectionFull__title--purple {
+    width: 60rem;
+    line-height: 5.25rem;
+    color: var(--darkPurpleMain);
+}
+
+.bannerSectionFull__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    max-width: 568px;
+    color: var(--subtitle);
+}
+
+.bannerSectionFull__image {
+    max-width: 428px;
+}
+
+@media screen and (max-width: 991px) {
+    .bannerSectionFull {
+        padding: 5rem 0;
+    }
+
+    .bannerSectionFull__title {
+        font-size: 24px;
+    }
+
+    .bannerSectionFull__subtitle {
+        font-size: 14px;
+    }
+
+    .bannerSectionFull__image {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .bannerSectionFull {
+        padding: 5rem 0;
+    }
+
+    .bannerSectionFull__title {
+        font-size: 24px;
+    }
+
+    .bannerSectionFull__subtitle {
+        font-size: 14px;
+    }
+
+    .bannerSectionFull__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .bannerSectionFull {
+        padding: 5rem 24px;
+        text-align: center;
+    }
+
+    .bannerSectionFull__image {
+        width: 245px;
+    }
+}

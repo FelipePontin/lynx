@@ -1,0 +1,23 @@
+.title {
+    margin: 100px 0;
+}
+
+.title__text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--title);
+    font-family: "Syne", sans-serif;
+}
+
+.title__colored {
+    color: var(--darkPurpleMain);
+}
+
+.title__description {
+    font-size: 18px;
+    margin: 10px auto 0 auto;
+    width: 43rem;
+    text-align: center;
+    color: var(--subtitle);
+}

@@ -1,0 +1,47 @@
+.bannerSectionSimple {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 0 96px 0;
+}
+
+.bannerSectionSimple__left {
+    flex-direction: row;
+}
+
+.bannerSectionSimple__right {
+    gap: 50px;
+    flex-direction: row-reverse;
+}
+
+.bannerSectionSimple__content {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.bannerSectionSimple__title {
+    line-height: 2.25rem;
+    font-size: 45px;
+    color: var(--title);
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+}
+
+.bannerSectionSimple__subtitle {
+    max-width: 550px;
+    font-size: 18px;
+    color: var(--subtitle);
+}
+
+.bannerSectionSimple__image--division {
+    width: max-content;
+    border: 1px solid #cccccc20;
+    border-radius: 3rem;
+    padding: 1.15rem;
+}
+
+.bannerSectionSimple__image {
+    border-radius: 2.5rem;
+}

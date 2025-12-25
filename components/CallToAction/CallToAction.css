@@ -1,0 +1,33 @@
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 62rem;
+    height: 20rem;
+    border-radius: 2rem;
+    gap: 25.5px;
+    aspect-ratio: 16/7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+
+.callToAction__title {
+    line-height: 3.5rem;
+    font-size: 45px;
+    text-align: center;
+    color: var(--title);
+    width: 40rem;
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+}
+
+.callToAction__subtile {
+    max-width: 550px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--subtitle);
+}

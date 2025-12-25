@@ -1,0 +1,81 @@
+.bannerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10rem 0;
+}
+
+.bannerSection__content {
+    width: 35rem;
+}
+
+.bannerSection__title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--title);
+    line-height: 5.25rem;
+    font-family: "Syne", sans-serif;
+}
+
+.bannerSection__title--colored {
+    font-size: 4rem;
+    line-height: 5.25rem;
+    font-weight: 800;
+    font-family: "Syne", sans-serif;
+    color: var(--darkPurpleMain);
+}
+
+.bannerSection__description {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 2rem 0;
+    color: var(--subtitle);
+}
+
+.bannerSection__benefits {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.bannerSection__benefits--section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.bannerSection__icon--division {
+    position: relative;
+    padding: 0.5rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background: #7409d122;
+}
+
+.bannerSection__icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--darkPurpleMain);
+    font-size: 20px;
+}
+
+.bannerSection__benefits--name {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--title);
+}
+
+.bannerSection__image--division {
+    border: 1px solid #cccccc20;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+.bannerSection__image {
+    border-radius: 2.5rem;
+    width: 475px;
+    height: 475px;
+}
