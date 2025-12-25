@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // components
-import AlertBar from "@/components/AlertBar/AlertBar";
+import Header from "@/components/Header/Header";
 import BannerSectionFull from "@/components/BannerSectionFull/BannerSectionFull";
 import Title from "@/components/Title/Title";
 import CardInfo from "@/components/CardInfo/CardInfo";
@@ -26,7 +26,7 @@ import CallToActionBackground from "../images/call-to-action.png";
 export default function Home() {
   return (
     <div className="">
-      <AlertBar />
+      <Header />
       <BannerSectionFull />
       <Title
         text="Serviços que"

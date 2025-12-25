@@ -1,3 +1,22 @@
 .alertBar {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.55rem 0;
+    color: #fff;
+    background: #410c66;
+}
+
+.alertBar__badge {
+    padding: 0.25rem 0.65rem;
+    font-size: 0.75rem;
+    border-radius: 10rem;
+    font-family: "Syne", sans-serif;
+    background: #c04cff;
+}
+
+.alertBar__text {
+    font-size: 0.85rem;
+    font-weight: 400;
 }

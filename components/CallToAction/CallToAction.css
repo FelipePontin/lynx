@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 5rem 0;
+    border: 1px solid #cccccc20;
 }
 
 .callToAction__title {

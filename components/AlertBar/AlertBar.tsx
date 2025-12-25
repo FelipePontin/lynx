@@ -5,9 +5,9 @@ import "./AlertBar.css";
 const AlertBar = () => {
   return (
     <div className="alertBar">
-      <div className="alertBar__badge">Full Service</div>
+      <div className="alertBar__badge">Novo</div>
       <p className="alertBar__text">
-        Do design ao lançamento, tudo pensado para performar
+        Materiais visuais pensados para destacar sua marca
       </p>
     </div>
   );

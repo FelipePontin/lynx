@@ -13,8 +13,8 @@ const BannerSection = () => {
   return (
     <section className="bannerSection">
       <div className="bannerSection__content">
-        <p className="bannerSection__title">Por que escolher a</p>
-        <p className="bannerSection__title--colored">Lynx Dsn?</p>
+        <p className="bannerSection__title">Excelência em cada detalhe</p>
+        {/* <p className="bannerSection__title--colored">Lynx Dsn?</p> */}
         <p className="bannerSection__description">
           Combinamos a precisão técnica com a sensibilidade artística para
           entregar resultados que outros apenas prometem.
