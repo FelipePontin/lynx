@@ -1,9 +1,10 @@
 .bannerSectionSimple {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin: 0 0 96px 0;
+    margin: 0 16px 96px 16px;
 }
 
 .bannerSectionSimple__left {
@@ -43,5 +44,14 @@
 }
 
 .bannerSectionSimple__image {
+    width: 450px;
+    height: 450px;
     border-radius: 2.5rem;
+}
+
+@media screen and (max-width: 1071px) {
+    .bannerSectionSimple__image {
+        width: 100%;
+        height: auto;
+    }
 }

@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
 .cardInfoImage__card {
     max-width: 278px;
     height: 345px;
+    margin: 0 16px;
     width: 100%;
     padding: 48px;
     border: 1px solid #cccccc20;
@@ -34,3 +36,4 @@
     font-size: 18px;
     color: var(--subtitle);
 }
+

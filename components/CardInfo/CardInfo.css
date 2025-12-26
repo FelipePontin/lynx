@@ -11,6 +11,7 @@
     align-items: start;
     padding: 48px;  
     border-radius: 2rem;
+    margin: 0 16px;
     border: 1px solid #cccccc20;
     width: 460px;
 }

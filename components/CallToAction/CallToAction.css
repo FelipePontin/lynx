@@ -32,3 +32,24 @@
     font-size: 18px;
     color: var(--subtitle);
 }
+
+@media screen and (max-width: 1071px) {
+    .callToAction {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .callToAction {
+    padding: 5rem .5rem;
+    }
+
+    .callToAction__title {
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .callToAction__subtile {
+        width: 100%;
+    }
+}

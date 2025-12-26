@@ -2,9 +2,13 @@ import React from "react";
 
 import "./AlertBar.css";
 
-const AlertBar = () => {
+export interface AlertBarProps {
+  className?: string;
+}
+
+const AlertBar = ({ className }: AlertBarProps) => {
   return (
-    <div className="alertBar">
+    <div className={`alertBar ${className}`}>
       <div className="alertBar__badge">Novo</div>
       <p className="alertBar__text">
         Materiais visuais pensados para destacar sua marca
