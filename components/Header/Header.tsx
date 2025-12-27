@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      {showAlert && <AlertBar />}
+      {/* {showAlert && <AlertBar />} */}
 
       <div className="header__content">
         <div className="header__division">
