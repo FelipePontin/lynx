@@ -20,3 +20,9 @@
     font-size: 0.85rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 665px) {
+    .alertBar__text {
+    font-size: 0.75rem;
+}
+}
