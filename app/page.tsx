@@ -26,7 +26,7 @@ import CallToActionBackground from "../images/call-to-action.png";
 export default function Home() {
   return (
     <div className="">
-      <Header />
+      {/* <Header /> */}
       <BannerSectionFull />
       <Title
         text="Serviços que"

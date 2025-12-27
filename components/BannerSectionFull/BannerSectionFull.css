@@ -85,11 +85,11 @@
 
 @media screen and (max-width: 665px) {
     .bannerSectionFull__title {
-        font-size: 2rem;
+        font-size: 1.95rem;
     }
 
     .bannerSectionFull__title--main {
-        max-width: 25rem;
+        max-width: 20rem;
         line-height: 2.25rem;
     }
 
