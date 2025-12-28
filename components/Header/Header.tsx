@@ -47,8 +47,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-
-        <button className="header__button">Começar projeto</button>
+        <a href="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento.">
+          <button className="header__button">Começar projeto</button>{" "}
+        </a>
       </div>
     </header>
   );

@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="">
       <Header />
-      <BannerSectionFull />
+      <BannerSectionFull buttonLink="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento." />
       <Title
         text="Serviços que"
         coloredText=" Oferecemos"
@@ -119,7 +119,7 @@ export default function Home() {
         }
         background={CallToActionBackground.src}
         buttonText={"Iniciar Minha Jornada"}
-        buttonLink={""}
+        buttonLink="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento."
       />
       <Footer />
       <WhatsappButton />
