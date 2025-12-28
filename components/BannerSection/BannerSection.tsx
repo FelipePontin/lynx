@@ -11,7 +11,7 @@ import "./BannerSection.css";
 
 const BannerSection = () => {
   return (
-    <section className="bannerSection">
+    <section className="bannerSection" data-aos="fade-down">
       <div className="bannerSection__content">
         <p className="bannerSection__title">Excelência em cada detalhe</p>
         {/* <p className="bannerSection__title--colored">Lynx Dsn?</p> */}

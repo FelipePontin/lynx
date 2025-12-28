@@ -1,10 +1,12 @@
+"use client";
 
+import React, { useEffect } from "react";
 
 import Image from "next/image";
 
 // animations
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // components
 import Header from "@/components/Header/Header";
@@ -31,11 +33,13 @@ import ImageDigital from "../images/ecosystem-presence.png";
 import CallToActionBackground from "../images/call-to-action.png";
 
 export default function Home() {
-
-   useEffect(() => {
-        AOS.init()
-    }, [])
-
+  useEffect(() => {
+    AOS.init({
+      once: false, // anima toda vez que entra na tela
+      mirror: false, // não anima ao sair
+      offset: 0, // anima exatamente quando toca a viewport
+    });
+  }, []);
 
   return (
     <div className="">

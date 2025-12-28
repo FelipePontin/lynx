@@ -10,7 +10,7 @@ import ImageBenefitCostumer from "../../images/apple-style-3.png";
 
 const CardInfoImage = () => {
   return (
-    <div className="cardInfoImage">
+    <div className="cardInfoImage" data-aos="fade-down">
       <div className="cardInfoImage__card">
         <Image
           className="cardInfoImage__image"

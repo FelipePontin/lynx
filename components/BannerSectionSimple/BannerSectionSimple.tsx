@@ -24,6 +24,7 @@ const BannerSectionSimple = ({
       className={`bannerSectionSimple ${
         imageLeft ? "bannerSectionSimple__left" : "bannerSectionSimple__right"
       }`}
+      data-aos="fade-down"
     >
       <div className="bannerSectionSimple__content">
         <p className="bannerSectionSimple__title">{title}</p>

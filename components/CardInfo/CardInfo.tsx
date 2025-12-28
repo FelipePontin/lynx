@@ -17,7 +17,7 @@ const CardInfo = ({ items }: CardInfoProps) => {
   return (
     <section className="cardInfo">
       {items.map((item, index) => (
-        <div key={index} className="cardInfo__item">
+        <div key={index} className="cardInfo__item" data-aos="fade-down">
           {item.icon && (
             <div className="cardInfo__icon--division">{item.icon}</div>
           )}

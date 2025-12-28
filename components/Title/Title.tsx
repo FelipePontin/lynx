@@ -10,7 +10,7 @@ export interface TitleProps {
 
 const Title = ({ text, coloredText, description }: TitleProps) => {
   return (
-    <div className="title">
+    <div className="title" data-aos="fade-down">
       <p className="title__text">
         {text}
         <span className="title__colored">{coloredText}</span>

@@ -25,6 +25,7 @@ const CallToAction = ({
       }}
       role="img"
       aria-label={"Call To Action Background Image"}
+      data-aos="fade-down"
     >
       <p className="callToAction__title">{title}</p>
       <p className="callToAction__subtile">{subtitle}</p>

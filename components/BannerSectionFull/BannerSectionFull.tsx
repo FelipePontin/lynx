@@ -41,27 +41,29 @@ const BannerSectionFull = ({
       role="img"
       aria-label={alt}
     >
-      <div className="bannerSectionFull__alertText">
+      <div className="bannerSectionFull__alertText" data-aos="fade-down">
         <BiSolidZap />
         <span className="bannerSectionFull__alertText--font">
           Marketing Digital de Alta Performance
         </span>
       </div>
-      <div className="bannerSectionFull__title">
+      <div className="bannerSectionFull__title" data-aos="fade-down">
         <p className="bannerSectionFull__title--main">Sua Presença Digital</p>
         <p className="bannerSectionFull__title--purple">
           Elevada ao Próximo Nível
         </p>
       </div>
-      <p className="bannerSectionFull__subtitle">
+      <p className="bannerSectionFull__subtitle" data-aos="fade-down">
         Criamos experiências digitais que não apenas atraem olhares, mas dominam
         mercados. Design de elite para marcas visionárias.
       </p>
-      <Button
-        href={buttonLink}
-        text={"Falar com um especialista"}
-        icon={<IoIosArrowForward />}
-      />
+      <div className="bannerSectionFull__button" data-aos="fade-down">
+        <Button
+          href={buttonLink}
+          text={"Falar com um especialista"}
+          icon={<IoIosArrowForward />}
+        />
+      </div>
     </section>
   );
 };
