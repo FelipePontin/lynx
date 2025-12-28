@@ -1,4 +1,10 @@
+
+
 import Image from "next/image";
+
+// animations
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 // components
 import Header from "@/components/Header/Header";
@@ -10,6 +16,7 @@ import CardInfoImage from "@/components/CardInfoImage/CardInfoImage";
 import BannerSectionSimple from "@/components/BannerSectionSimple/BannerSectionSimple";
 import CallToAction from "@/components/CallToAction/CallToAction";
 import Footer from "@/components/Footer/Footer";
+import WhatsappButton from "@/components/WhatsappButton/WhatsappButton";
 
 // icons
 import { FiLayout } from "react-icons/fi";
@@ -24,6 +31,12 @@ import ImageDigital from "../images/ecosystem-presence.png";
 import CallToActionBackground from "../images/call-to-action.png";
 
 export default function Home() {
+
+   useEffect(() => {
+        AOS.init()
+    }, [])
+
+
   return (
     <div className="">
       <Header />
@@ -105,6 +118,7 @@ export default function Home() {
         buttonLink={""}
       />
       <Footer />
+      <WhatsappButton />
     </div>
   );
 }

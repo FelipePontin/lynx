@@ -1,0 +1,19 @@
+.whatsappButton {
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+    background: #25d366;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsappButton__icon {
+    font-size: 2.5rem;
+    color: #fff;
+}
