@@ -28,7 +28,7 @@
 
 .bannerSectionFull__title {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     color: var(--title);
     font-family: "Syne", sans-serif;
@@ -37,12 +37,12 @@
 .bannerSectionFull__title--main {
     margin: 0 auto;
     max-width: 40rem;
-    line-height: 5.25rem;
+    line-height: 4.65rem;
 }
 
 .bannerSectionFull__title--purple {
     width: 60rem;
-    line-height: 5.25rem;
+    line-height: 4.65rem;
     color: var(--darkPurpleMain);
 }
 
