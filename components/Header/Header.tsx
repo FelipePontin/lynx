@@ -33,7 +33,7 @@ const Header = () => {
         <div className="header__division">
           <p className="header__logo">LYNX</p>
 
-          <ul className="header__options">
+          {/* <ul className="header__options">
             <li className="header__links">
               <a className="header__link" href="">
                 Serviços
@@ -45,9 +45,9 @@ const Header = () => {
                 Projetos
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <a href="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento.">
+        <a href="https://api.whatsapp.com/send?phone=5511982558477&text=Olá! Eu gostaria de fazer um orçamento.">
           <button className="header__button">Começar projeto</button>{" "}
         </a>
       </div>

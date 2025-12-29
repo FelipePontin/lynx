@@ -54,8 +54,8 @@ const BannerSectionFull = ({
         </p>
       </div>
       <p className="bannerSectionFull__subtitle" data-aos="fade-down">
-        Criamos experiências digitais que não apenas atraem olhares, mas dominam
-        mercados. Design de elite para marcas visionárias.
+        Criamos experiências digitais exclusivas para marcas que querem se
+        destacar, crescer e liderar no ambiente online.
       </p>
       <div className="bannerSectionFull__button" data-aos="fade-down">
         <Button

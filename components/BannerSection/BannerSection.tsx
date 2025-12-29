@@ -16,8 +16,8 @@ const BannerSection = () => {
         <p className="bannerSection__title">Excelência em cada detalhe</p>
         {/* <p className="bannerSection__title--colored">Lynx Dsn?</p> */}
         <p className="bannerSection__description">
-          Combinamos a precisão técnica com a sensibilidade artística para
-          entregar resultados que outros apenas prometem.
+          Nada é feito no automático. Cada decisão é pensada para gerar impacto
+          real, performance e posicionamento de marca.
         </p>
         <div className="bannerSection__benefits">
           <div className="bannerSection__benefits--section">
@@ -32,12 +32,12 @@ const BannerSection = () => {
             </div>
             <p className="bannerSection__benefits--name">Suporte 24/7</p>
           </div>
-          <div className="bannerSection__benefits--section">
+          {/* <div className="bannerSection__benefits--section">
             <div className="bannerSection__icon--division">
               <FaRegCircleCheck className="bannerSection__icon" />
             </div>
             <p className="bannerSection__benefits--name">Relatórios Reais</p>
-          </div>
+          </div> */}
           <div className="bannerSection__benefits--section">
             <div className="bannerSection__icon--division">
               <FaRegCircleCheck className="bannerSection__icon" />

@@ -48,32 +48,32 @@ export default function Home() {
       <Title
         text="Serviços que"
         coloredText=" Oferecemos"
-        description="Criamos sites, landing pages, identidades visuais, criativos, materiais para redes sociais e tudo o que você precisa para um lançamento visualmente impecável."
+        description="Criamos soluções digitais completas para marcas que querem se destacar, vender mais e construir autoridade no online."
       />
       <CardInfo
         items={[
           {
             title: "Websites & Landing Pages",
             description:
-              "Interfaces de alta conversão com estética Apple e performance impecável.",
+              "Interfaces rápidas, responsivas e estrategicamente pensadas para transformar visitantes em clientes.",
             icon: <FiLayout className="cardInfo__icon" />,
           },
           {
             title: "Identidade Visual",
             description:
-              "Criamos marcas memoráveis que capturam a essência do seu negócio e dominam o mercado.",
+              "Construímos identidades visuais que comunicam valor, posicionamento e profissionalismo, capturando a essência do seu negócio.",
             icon: <MdOutlinePalette className="cardInfo__icon" />,
           },
           {
             title: "Criativos & Social Media",
             description:
-              "Materiais visuais impecáveis para redes sociais e campanhas que convertem olhares em clientes.",
+              "Criativos estratégicos para redes sociais e campanhas, pensados para aumentar engajamento, fortalecer a marca e gerar conversões.",
             icon: <HiOutlineLightningBolt className="cardInfo__icon" />,
           },
           {
             title: "Lançamentos Visuais",
             description:
-              "Tudo o que você precisa para um lançamento visualmente impecável e estrategicamente sólido.",
+              "Tudo o que você precisa para um lançamento visualmente impecável, coerente com a marca e preparado para performar do início ao fim.",
             icon: <FaRegCircleCheck className="cardInfo__icon" />,
           },
         ]}
@@ -88,7 +88,7 @@ export default function Home() {
       <BannerSectionSimple
         title={"Identidade Visual"}
         subtitle={
-          "Sua marca é sua digital no mundo. Uma identidade forte cria reconhecimento instantâneo e confiança inabalável."
+          "Sua marca é sua digital no mundo. Uma identidade forte cria reconhecimento instantâneo e confiança."
         }
         imageLeft={true}
         imageLink={ImageIV.src}
@@ -119,7 +119,7 @@ export default function Home() {
         }
         background={CallToActionBackground.src}
         buttonText={"Iniciar Minha Jornada"}
-        buttonLink="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento."
+        buttonLink="https://api.whatsapp.com/send?phone=5511982558477&text=Olá! Eu gostaria de fazer um orçamento."
       />
       <Footer />
       <WhatsappButton />

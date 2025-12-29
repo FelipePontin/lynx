@@ -17,7 +17,7 @@ const CardInfoImage = () => {
           src={ImageBenefitDesign}
           alt={""}
         />
-        <p className="cardInfoImage__title">Design de Elite</p>
+        <p className="cardInfoImage__title">Design Moderno</p>
         <p className="cardInfoImage__description">
           Criamos experiências que guiam o usuário até a conversão.
         </p>
