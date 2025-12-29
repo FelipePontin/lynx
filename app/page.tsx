@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="">
       <Header />
-      <BannerSectionFull buttonLink="https://api.whatsapp.com/send?phone=551198255-8477&text=Olá! Eu gostaria de fazer um orçamento." />
+      <BannerSectionFull buttonLink="https://api.whatsapp.com/send?phone=5511982558477&text=Olá! Eu gostaria de fazer um orçamento." />
       <Title
         text="Serviços que"
         coloredText=" Oferecemos"
