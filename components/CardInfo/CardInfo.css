@@ -1,4 +1,5 @@
 .cardInfo {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -6,14 +7,36 @@
 }
 
 .cardInfo__item {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 48px;  
+    padding: 48px;
     border-radius: 2rem;
     margin: 0 16px;
     border: 1px solid #cccccc20;
     width: 460px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+    z-index: 2;
+}
+
+.cardInfo__item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        600px circle at var(--mouse-x) var(--mouse-y),
+        rgba(116, 9, 209, 0.133),
+        transparent 40%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.cardInfo__item:hover::before {
+    opacity: 1;
 }
 
 .cardInfo__title {

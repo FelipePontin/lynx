@@ -1,5 +1,6 @@
-import React from "react";
+"use client";
 
+import React from "react";
 import Image from "next/image";
 
 import "./CardInfoImage.css";
@@ -9,24 +10,52 @@ import ImageBenefitPerformance from "../../images/apple-style-2.png";
 import ImageBenefitCostumer from "../../images/apple-style-3.png";
 
 const CardInfoImage = () => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    card.style.setProperty("--mouse-x", `${x}px`);
+    card.style.setProperty("--mouse-y", `${y}px`);
+  };
+
+  const handleMouseLeave = (
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
+    const card = e.currentTarget;
+    card.style.setProperty("--mouse-x", `50%`);
+    card.style.setProperty("--mouse-y", `50%`);
+  };
+
   return (
     <div className="cardInfoImage" data-aos="fade-down">
-      <div className="cardInfoImage__card">
+      <div
+        className="cardInfoImage__card"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
         <Image
           className="cardInfoImage__image"
           src={ImageBenefitDesign}
-          alt={""}
+          alt="Design Moderno"
         />
         <p className="cardInfoImage__title">Design Moderno</p>
         <p className="cardInfoImage__description">
           Criamos experiências que guiam o usuário até a conversão.
         </p>
       </div>
-      <div className="cardInfoImage__card">
+
+      <div
+        className="cardInfoImage__card"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
         <Image
           className="cardInfoImage__image"
           src={ImageBenefitPerformance}
-          alt={""}
+          alt="Performance Extrema"
         />
         <p className="cardInfoImage__title">Performance Extrema</p>
         <p className="cardInfoImage__description">
@@ -34,11 +63,16 @@ const CardInfoImage = () => {
           melhor experiência.
         </p>
       </div>
-      <div className="cardInfoImage__card">
+
+      <div
+        className="cardInfoImage__card"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
         <Image
           className="cardInfoImage__image"
           src={ImageBenefitCostumer}
-          alt={""}
+          alt="Foco no Cliente"
         />
         <p className="cardInfoImage__title">Foco no Cliente</p>
         <p className="cardInfoImage__description">

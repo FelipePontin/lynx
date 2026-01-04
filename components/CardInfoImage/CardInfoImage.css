@@ -7,14 +7,35 @@
 }
 
 .cardInfoImage__card {
+    position: relative;
     max-width: 278px;
     height: 345px;
     margin: 0 16px;
-    width: 100%;
     padding: 48px;
     border: 1px solid #cccccc20;
     border-radius: 2rem;
-    width: max-content;
+    overflow: hidden;
+
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+}
+
+.cardInfoImage__card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        600px circle at var(--mouse-x) var(--mouse-y),
+        rgba(116, 9, 209, 0.133),
+        transparent 40%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.cardInfoImage__card:hover::before {
+    opacity: 1;
 }
 
 .cardInfoImage__image {
@@ -36,4 +57,3 @@
     font-size: 18px;
     color: var(--subtitle);
 }
-
