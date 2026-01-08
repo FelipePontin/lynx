@@ -9,7 +9,7 @@
     margin: 0 16px 96px 16px;
 }
 
-.bannerSectionSimple::before {
+/* .bannerSectionSimple::before {
     content: "";
     position: absolute;
     inset: -30%;
@@ -24,7 +24,7 @@
 
     filter: blur(200px);
     z-index: -1;
-}
+} */
 
 .bannerSectionSimple__left {
     flex-direction: row;

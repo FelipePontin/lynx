@@ -7,7 +7,7 @@
     margin: 10rem 16px;
 }
 
-.bannerSection::before {
+/* .bannerSection::before {
     content: "";
     position: absolute;
     top: -50%;
@@ -26,7 +26,7 @@
 
     filter: blur(40px);
     z-index: -1;
-}
+} */
 
 .bannerSection__content {
     width: 35rem;
