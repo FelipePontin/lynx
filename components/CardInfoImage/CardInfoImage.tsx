@@ -57,7 +57,7 @@ const CardInfoImage = () => {
           src={ImageBenefitPerformance}
           alt="Performance Extrema"
         />
-        <p className="cardInfoImage__title">Performance Extrema</p>
+        <p className="cardInfoImage__title">Performance</p>
         <p className="cardInfoImage__description">
           Soluções otimizadas para carregar em milissegundos, garantindo a
           melhor experiência.

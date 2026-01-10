@@ -95,13 +95,13 @@ export default function Home() {
         altImage={"Identidade Visual"}
       />
       <BannerSectionSimple
-        title={"Website de Elite"}
+        title={"Website Moderno"}
         subtitle={
           "Seu site é sua vitrine 24/7. Não é apenas sobre estar online, é sobre como você se apresenta ao mundo."
         }
         imageLeft={false}
         imageLink={ImageWeb.src}
-        altImage={"Website de Elite"}
+        altImage={"Website Moderno"}
       />
       <BannerSectionSimple
         title={"Presença Digital"}
