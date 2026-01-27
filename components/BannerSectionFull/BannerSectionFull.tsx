@@ -41,12 +41,12 @@ const BannerSectionFull = ({
       role="img"
       aria-label={alt}
     >
-      <div className="bannerSectionFull__alertText" data-aos="fade-down">
+      {/* <div className="bannerSectionFull__alertText" data-aos="fade-down">
         <BiSolidZap />
         <span className="bannerSectionFull__alertText--font">
           Marketing Digital de Alta Performance
         </span>
-      </div>
+      </div> */}
       <div className="bannerSectionFull__title" data-aos="fade-down">
         <p className="bannerSectionFull__title--main">Sua Presença Digital</p>
         <p className="bannerSectionFull__title--purple">

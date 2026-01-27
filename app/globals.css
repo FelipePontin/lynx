@@ -5,10 +5,11 @@
   --background: #060010;
   --title: #ffffff;
   --subtitle: #827e8b;
-  --darkPurpleMain: #7309d1;
-  --darkPurpleSecondary: #4c0787;
-  --darkPurple: #410c66;
+  --darkPurpleMain: #6014A4;
+  --darkPurpleSecondary: #6014A4;
+  --darkPurple: #6014A4;
   --transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  --textGradient: linear-gradient(135deg, #300A52 0%, #9D6FC6 100%);
 }
 
 html {

@@ -48,7 +48,7 @@ export default function Home() {
       <Title
         text="Serviços que"
         coloredText=" Oferecemos"
-        description="Criamos soluções digitais completas para marcas que querem se destacar, vender mais e construir autoridade no online."
+        description="Criamos soluções digitais para marcas que querem se destacar, vender mais e construir autoridade no online."
       />
       <CardInfo
         items={[

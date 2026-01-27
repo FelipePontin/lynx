@@ -1,8 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 import AlertBar from "@/components/AlertBar/AlertBar";
+
+import LogoLynx from "../../images/logo-lynx.png";
 
 import "./Header.css";
 
@@ -31,7 +34,11 @@ const Header = () => {
 
       <div className="header__content">
         <div className="header__division">
-          <p className="header__logo">LYNX</p>
+          <Image
+            src={LogoLynx}
+            alt="Logo Lynx Dsn"
+            className="header__logo"
+          />
 
           {/* <ul className="header__options">
             <li className="header__links">
